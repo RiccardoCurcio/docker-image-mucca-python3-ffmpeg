@@ -2,6 +2,7 @@ FROM python:3.7-slim-stretch
 
 RUN apt-get update && apt-get upgrade -y \
     && apt-get install -y \
+    python3-dev \
     git \
     ffmpeg
 
